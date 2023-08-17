@@ -91,7 +91,7 @@ async function main() {
   try {
     console.log('Opening browser...');
     browser = await puppeteer.launch({
-      headless: false,
+      headless: 'new',
     });
     const page = await browser.newPage();
   
