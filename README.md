@@ -14,6 +14,8 @@ npm install
 ```
 
 ## Usage
+Firstly, add the courses you want to courses.txt file.
+Then, it'd be best to run this command with some sort of cron job.
 ```bash
 node index.js
 ```
