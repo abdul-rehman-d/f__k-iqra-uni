@@ -14,8 +14,15 @@ npm install
 ```
 
 ## Usage
-Firstly, add the courses you want to courses.txt file.
-Then, it'd be best to run this command with some sort of cron job.
+1. Firstly,
+```bash
+cp .env.example .env
+```
+- Then, fill in the required fields in .env file.  
+<br />
+2. Secondly, add the courses you want to courses.txt file.  
+<br />
+3. Then, it'd be best to run this command with some sort of cron job.  
 ```bash
 node index.js
 ```
